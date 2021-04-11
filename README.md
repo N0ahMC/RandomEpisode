@@ -1,12 +1,19 @@
 # RandomEpisode
  Random Episode Generator
+
+[![NPM](https://nodei.co/npm/randomepisode.png)](https://nodei.co/npm/randomepisode/) 
+
+## Installation:
+```
+npm i randomepisode
+```
 ## Usage:
 ```js
 const RandomEpisode = require('randomepisode')
 
 RandomEpisode.getRandomEpisode('The Office').then(i => {console.log(i)})
 ```
-## Example Response
+## Example Response:
 ```js
 {
   Title: 'Niagara: Part 1',
