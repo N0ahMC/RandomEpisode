@@ -1,19 +1,27 @@
 # RandomEpisode
- Random Episode Generator
 
-[![NPM](https://nodei.co/npm/randomepisode.png)](https://nodei.co/npm/randomepisode/) 
+Random Episode Generator
+
+[![NPM](https://nodei.co/npm/randomepisode.png)](https://nodei.co/npm/randomepisode/)
 
 ## Installation:
+
 ```
 npm i randomepisode
 ```
-## Usage:
-```js
-const RandomEpisode = require('randomepisode')
 
-RandomEpisode.getRandomEpisode('The Office').then(i => {console.log(i)})
+## Usage:
+
+```js
+const RandomEpisode = require("randomepisode");
+
+RandomEpisode.getRandomEpisode("The Office").then((i) => {
+  console.log(i);
+});
 ```
+
 ## Example Response:
+
 ```js
 {
   Title: 'Niagara: Part 1',
@@ -27,7 +35,7 @@ RandomEpisode.getRandomEpisode('The Office').then(i => {console.log(i)})
   Director: 'Paul Feig',
   Writer: 'Greg Daniels (developed for american television by), Greg Daniels, Mindy Kaling, Ricky Gervais (creator), Stephen Merchant (creator)',
   Actors: 'Steve Carell, Rainn Wilson, John Krasinski, Jenna Fischer',
-  Plot: "The Office travels to Niagara Falls to celebrate Jim and Pam's wedding under strict orders not to mention Pam's pregnancy. Michael, Dwight, and Andy all want to hook up with guests at the wedding and Michael and 
+  Plot: "The Office travels to Niagara Falls to celebrate Jim and Pam's wedding under strict orders not to mention Pam's pregnancy. Michael, Dwight, and Andy all want to hook up with guests at the wedding and Michael and
 Dwight meet twins.",
   Language: 'English',
   Country: 'N/A',
