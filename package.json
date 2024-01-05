@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/N0ahMC/RandomEpisode#readme",
   "dependencies": {
-    "axios": "^0.24.0"
+    "axios": "^1.6.4"
   }
 }
